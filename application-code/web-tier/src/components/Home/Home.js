@@ -6,7 +6,7 @@
         render () {
         return (
             <div>
-            <h1 style={{color:"white"}}>'Welcome to AWS 3-TIER WEB APP DEMO with Reyaz Sir'</h1>
+            <h1 style={{color:"white"}}>'Welcome TO CHHATRAPAL'S AWS 3-TIER ARCHITECTURE PROJECT'</h1>
             <img src={architecture} alt="3T Web App Architecture" style={{height:400,width:825}} />
           </div>
         );
