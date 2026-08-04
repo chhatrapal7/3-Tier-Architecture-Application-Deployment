@@ -85,32 +85,44 @@ Amazon RDS (MySQL)
 
 ---
 
-# Project Structure
+## 📁 Project Structure
 
-```
-application-code/
+```text
+3-Tier-Architecture-Application-Deployment/
 │
-├── app-tier/
-│   ├── index.js
-│   ├── TransactionService.js
-│   ├── DbConfig.js
-│   └── package.json
+├── application-code/
+│   ├── app-tier/
+│   │   ├── DbConfig.js
+│   │   ├── TransactionService.js
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   └── README.md
+│   │
+│   ├── web-tier/
+│   │   ├── public/
+│   │   ├── src/
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   
+│   ├── nginx.conf
 │
-├── web-tier/
-│   ├── src/
-│   ├── public/
-│   ├── build/
-│   └── package.json
+├── diagram/
+│   └── architecture.webp
 │
-docs/
-├── screenshots/
-└── architecture-diagram.png
-
-deployment-steps.md
-
-README.md
-
-LICENSE
+├── screenshot/
+│   ├── vpc.png
+│   ├── security-groups.png
+│   ├── rds.png
+│   ├── app-tier.png
+│   ├── web-tier.png
+│   ├── load-balancer.png
+│   ├── route53.png
+│   ├── acm.png
+│   └── application-demo.png
+│
+├── deployment-steps.md
+└── README.md
 ```
 
 ---
