@@ -10,7 +10,7 @@ The application follows a standard 3-tier architecture where the frontend, backe
 
 # Architecture
 
-![Architecture](docs/architecture-diagram.png)
+![Architecture](diagram/image.webp)
 
 ---
 
